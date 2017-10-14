@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Φιλοξενητής: localhost
--- Χρόνος δημιουργίας: 14 Οκτ 2017 στις 05:12:21
+-- Χρόνος δημιουργίας: 14 Οκτ 2017 στις 05:56:51
 -- Έκδοση διακομιστή: 10.1.28-MariaDB
 -- Έκδοση PHP: 7.1.10
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Βάση δεδομένων: `arxeiothetisi`
 --
+CREATE DATABASE IF NOT EXISTS `arxeiothetisi` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `arxeiothetisi`;
 
 -- --------------------------------------------------------
 
