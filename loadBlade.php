@@ -1,8 +1,4 @@
 <?php
-
-//require 'src/Autoloader.php';
-
-// Εισαγωγή των κλάσεων του composer
 require 'src/Autoloader.php';
 Xiaoler\Blade\Autoloader::register();
 
